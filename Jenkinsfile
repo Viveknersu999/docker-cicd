@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         //DOCKERHUB_USERNAME = 'vivek0991'
-        DOCKERHUB_CREDENTIALS = credentials('docker')
+        DOCKERHUB_CREDENTIALS = credentials('vivek')
         DOCKER_IMAGE_NAME = 'myweb_nginx01'
         DOCKERHUB_REPO = 'vivek0991/nginxapp'
         DOCKERFILE_PATH = '/var/lib/jenkins/workspace/dockerimage-deploy/Dockerfile'
